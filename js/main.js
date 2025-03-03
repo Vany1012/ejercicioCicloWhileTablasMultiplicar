@@ -7,12 +7,12 @@ del número que reciba.
 */
 
 function tablaDeMultiplicar(numero){
-    vuelta = 1;
+    let vuelta = 1;
     while (vuelta <= 10){
         console.log(`${numero} x ${vuelta} = ${numero*vuelta}`);
         vuelta ++;
     };
 };
 
-numero = 5;
+let numero = 5;
 tablaDeMultiplicar(numero);
